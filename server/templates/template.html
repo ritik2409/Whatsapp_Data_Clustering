@@ -1,0 +1,12 @@
+<html>
+    <head>
+        <title>Simple file upload using Python Flask</title>
+    </head>
+    <body>
+        <form action="/handleUpload" method="post" enctype="multipart/form-data">
+	    Enter Cluster Value: <input type="number" min="2" name="cluster_value"/><BR>
+            Choose the file: <input type="file" name="file"/><BR>
+                <input type="submit" value="Upload"/>
+        </form> 
+    </body>
+</html>
